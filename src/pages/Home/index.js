@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import Coments from "../../components/Coments";
-import { FeedContainer, GistIcon, Main, Post } from "./styles.";
+import { FeedContainer, GistIcon, Main, Post, Profile } from "./styles.";
+import { FaLinkedin } from "react-icons/fa";
 
     function Home() {
 
@@ -31,9 +32,22 @@ import { FeedContainer, GistIcon, Main, Post } from "./styles.";
         <>
             <Header />
             <Main>
-                <nav>
-                    Profile
-                </nav>
+            <Profile>
+                    <img src ="https://avatars.githubusercontent.com/u/74717575?v=4"/>
+                    <div>
+                        <strong>OChriiis</strong>
+                    </div>
+                    <div>
+                        <strong>RA:20272523</strong>
+                    </div>
+                    <div>
+                         <strong>contato.chris@outlook.com</strong>
+                    </div>
+                    <div>
+                    <GistIcon/>
+                    <FaLinkedin/>
+                    </div>
+                </Profile>
                 <FeedContainer>
                     {posts.map(post => <PostCard post={post}/>)}
                 </FeedContainer>
