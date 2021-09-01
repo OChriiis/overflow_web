@@ -33,7 +33,7 @@ import { FaLinkedin } from "react-icons/fa";
             <Header />
             <Main>
             <Profile>
-                    <img src ="https://avatars.githubusercontent.com/u/74717575?v=4"/>
+                    <img src ="blob:https://teams.microsoft.com/e39e1d0a-5f09-4552-9d0f-6a22d94b24e3"/>
                     <div>
                         <strong>OChriiis</strong>
                     </div>
