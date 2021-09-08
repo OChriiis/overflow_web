@@ -1,4 +1,4 @@
-import Header from "../../components/Header";
+import Header from "../../components/header";
 import Coments from "../../components/Coments";
 import { FeedContainer, GistIcon, Main, Post, Profile } from "./styles.";
 import { FaLinkedin } from "react-icons/fa";
